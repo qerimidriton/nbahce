@@ -1,0 +1,155 @@
+        @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+        @media (min-width: 1024px) {
+            .hero {
+                background-attachment: fixed;
+            }
+            #produktet,
+            #pemet-items,
+            #perimet-items {
+                background-attachment: fixed;
+            }
+        }
+        
+        @media (max-width: 1023.98px) {
+            #produktet,
+            #pemet-items,
+            #perimet-items {
+                background-attachment: fixed;
+            }
+            .hero {
+                background-attachment: fixed;
+            }
+        }
+        
+        @media (max-width: 991.98px) {
+            .kerko-btn {
+                visibility: hidden;
+            }
+            .hero {
+                height: auto;
+                padding: 30px 0 60px 0;
+                justify-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+            .hero .hero-img {
+                text-align: center;
+                margin-top: 00px;
+            }
+            .hero .hero-img img {
+                width: 90%;
+            }
+            .nav-font {
+                background-color: white;
+            }
+            .cmimi {
+                font-size: 26px;
+            }
+            .card-title {
+                font-size: 22px;
+            }
+            .text-kontakt {
+                font-size: 16px;
+            }
+        }
+        
+        @media (max-width: 767.98px) {
+            .row-md {
+                width: 100%;
+            }
+            .kerko-btn {
+                padding-top: 5px;
+            }
+            .btn-kthehu {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 575.98px) {
+            .hero .hero-img {
+                text-align: center;
+                margin-top: 00px;
+            }
+            #perimet {
+                padding-top: 30px;
+            }
+            .kerko-btn {
+                padding-top: 5px;
+            }
+            .row-md {
+                margin-left: 50px;
+                width: 80%;
+            }
+        }
+        
+        @media (max-width: 460.98px) {
+            .hero h1 {
+                font-size: 30px;
+            }
+            .hero h2 {
+                font-size: 16px;
+            }
+            .row-md {
+                margin-left: 35px;
+                width: 80%;
+            }
+            .card-title {
+                font-size: 20px;
+            }
+            .cmimi {
+                font-size: 20px;
+            }
+            .card-text {
+                font-size: 15px;
+            }
+        }
+        
+        @media (min-width: 992px) {
+            .text-padding {
+                margin-left: 9.2rem;
+            }
+        }
+        /* ----- Fillimi BTN KTHEHU ne breakpoints --- */
+        
+        @media (min-width: 768.98px) and (max-width: 834.98px) {
+            .btn-kthehu {
+                display: none;
+            }
+        }
+        
+        @media (min-width: 835px) and (max-width: 897.98px) {
+            .btn-kthehu {
+                font-size: 40px;
+                right: 5px;
+            }
+        }
+        
+        @media (min-width: 898px) and (max-width: 991.98px) {
+            .btn-kthehu {
+                right: 1rem;
+                font-size: 60px;
+            }
+        }
+        
+        @media (min-width: 992px) and (max-width: 1065.98px) {
+            .btn-kthehu {
+                font-size: 40px;
+                right: -5px;
+            }
+        }
+        
+        @media (min-width: 1066px) and (max-width: 2000.98px) {
+            .btn-kthehu {
+                font-size: 45px;
+                right: 15px;
+            }
+        }
+        
+        @media (min-width: 2000.98px) {
+            .btn-kthehu {
+                font-size: 60px;
+                right: 15px;
+            }
+        }
+        /* --- mbarimi BTN KTHEHU ne breakpoints ---  */

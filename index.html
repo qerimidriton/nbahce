@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/breakpoints.css">
+    <link rel="stylesheet" href="css/hover.css">
+
+
+    <title>n'bahce</title>
+    <link rel="icon" href="img/logo2.png">
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-nav">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo d-flex align-items-center">
+                <img src="img/logo2.png" alt="">
+                <span>n'bahçe</span>
+            </a>
+
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+            <div class="collapse navbar-collapse nav-font text-center" id="navmenu">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item mx-3">
+                        <a class="nav-link scrollto" href="index.html">Ballina</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link scrollto" href="#produktet">Produktet</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link scrollto" href="#rreth-nesh">Rreth nesh</a>
+                    </li>
+
+                    <li class="nav-item mx-3">
+                        <a class="nav-link scrollto" href="#kontakti">Kontakti</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="ballina" class="hero d-flex align-items-center">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-right">
+                    <h1>Mirësevini <br><span>n'bahçe</span></h1>
+                    <h2>pemë dhe perime të freskëta</h2>
+
+                    <div>
+                        <div class="text-center text-lg-start">
+
+                            <a type="button" href="#produktet" class="kerko-btn btn btn-warning scrollto d-inline-flex align-items-center justify-content-center align-self-center">Kerko</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 hero-img" data-aos="fade-down">
+                    <img src="img/marketi.png" class="img-fluid hvr-pulse" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Produktet section -->
+
+
+    <section id="produktet" class="hero d-flex d-sm-flex align-items-center">
+        <div class="container mb-5 mt-5">
+
+            <div class="row justify-content-center align-items-center d-flex row-md">
+
+                <!-- Pemet card -->
+
+
+                <div id="pemet" class="col-lg-4 col-sm-5" data-aos="fade-right">
+                    <a href="#pemet-items" onclick="showPemet();showButoni()">
+                        <div class="card card-border mt-3 ">
+                            <div class="peme align-items-center px-4 py-3 text-center">
+                                <img src="img/peme.svg" alt="" class="hvr-buzz img-size">
+                                <h5 class="pt-2"><span> Pemët</span></h5>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+
+
+                <!-- Perimet card -->
+
+                <div id="perimet" class="col-lg-4 col-sm-5" data-aos="fade-left">
+                    <a href="#perimet-items" onclick="showPerimet();showButoni()">
+                        <div class="card card-border mt-3">
+                            <div class="perime align-items-center px-4 py-3 text-center">
+                                <img src="img/perime.svg" alt="" class="hvr-buzz img-size">
+                                <h5 class=" pt-2"><span>Perimet</span></h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="pemet-items" class="align-items-center pt-5">
+        <div class="container">
+
+            <div class="row justify-content-center align-items-center d-flex row-md">
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+
+                    <div class="card card-border-pemet mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/pemet/banane.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">Banane</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+
+                    <div class="card card-border-pemet mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/pemet/boronicat.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">Boronicat</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+
+                    <div class="card card-border-pemet mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/pemet/dardha.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">Dardha</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+
+                    <div class="card card-border-pemet mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/pemet/dredhza.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">dredhza</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+
+                    <div class="card card-border-pemet mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/pemet/grapefruit.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">grapefruit</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+
+                    <div class="card card-border-pemet mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/pemet/kajsi.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">kajsi</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+
+                    <div class="card card-border-pemet mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/pemet/kivi.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">kivi</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+
+                    <div class="card card-border-pemet mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/pemet/kumbulla.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">kumbulla</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+
+                    <div class="card card-border-pemet mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/pemet/mandarina.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">mandarina</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+
+                    <div class="card card-border-pemet mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/pemet/mango.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">mango</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+
+                    <div class="card card-border-pemet mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/pemet/mjedra.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">mjedra</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+
+                    <div class="card card-border-pemet mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/pemet/molla.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">molla</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+
+                    <div class="card card-border-pemet mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/pemet/nektarina.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">nektarina</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+
+                    <div class="card card-border-pemet mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/pemet/pjeper.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">pjeper</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+
+                    <div class="card card-border-pemet mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/pemet/pjeshka.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">pjeshka</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+
+                    <div class="card card-border-pemet mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/pemet/shalqi.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">shalqi</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="perimet-items" class="align-items-center pt-5">
+        <div class="container">
+
+            <div class="row justify-content-center align-items-center d-flex row-md">
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+
+                    <div class="card card-border-2 mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/perimet/brokoli.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">brokoli</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+                    <div class="card card-border-2 mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/perimet/karrota.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">karrota</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+                    <div class="card card-border-2 mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/perimet/tranguj.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">tranguj</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+                    <div class="card card-border-2 mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/perimet/kungull.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">kungull</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+                    <div class="card card-border-2 mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/perimet/kungullesh.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">kungullesh</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+                    <div class="card card-border-2 mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/perimet/lakra.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">lakra</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+                    <div class="card card-border-2 mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/perimet/lulelaker.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">lulelaker</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+                    <div class="card card-border-2 mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/perimet/magdanoz.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">magdanoz</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+                    <div class="card card-border-2 mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/perimet/marulla.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">marulla</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+                    <div class="card card-border-2 mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/perimet/patate.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">patate</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+                    <div class="card card-border-2 mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/perimet/domate.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">domate</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+                    <div class="card card-border-2 mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/perimet/qepa.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">qepa</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-xl-3 col-md-4 col-sm-6 col-10 p-3 p-lg-4">
+                    <div class="card card-border-2 mt-3 ">
+                        <div class="align-items-center px-4 py-3 text-center">
+                            <img src="img/perimet/spinaq.png" alt="" class="img-size">
+                            <div class="card-body">
+                                <h5 class="card-title ">spinaq</h5>
+                                <span class="cmimi">70.50e</span>
+                                <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <div id="butoni" class="butoni">
+        <a href="#produktet" type="button" class="btn btn-kthehu"><i class="far fa-arrow-alt-circle-up"></i></a>
+    </div>
+
+
+
+    <!-- mbarimi i section Produktet -->
+
+    <!-- fillimi i section rreth-nesh -->
+
+    <section id="rreth-nesh" class="hero d-flex align-items-center">
+
+        <div class="container">
+            <div class="row justify-content-center ">
+                <div class="col-10 d-flex flex-column justify-content-center text-center rreth-nesh" data-aos="fade-right">
+                    <h1 class="pt-4"> Kush jemi?</h1>
+
+                    <h4 class="pt-5"><strong>Tradit 12 vjecare!</strong></h4>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum cupiditate debitis sit dolorum obcaecati saepe laborum reiciendis quis voluptate consequatur!
+                    </p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur ullam nobis atque sint est repellat minima vel nam aspernatur, error pariatur architecto praesentium ea obcaecati ratione nesciunt omnis explicabo, illo quasi assumenda
+                        hic quae enim.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro aperiam libero explicabo veniam voluptate illo asperiores neque dolorum! Corrupti soluta vero, eum a saepe praesentium modi deserunt nostrum odio porro.</p>
+                    <p><strong> Produkte te shendetshme, natyrale dhe te shishme <span>&#128525</span></strong></p>
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- mbarimi i section rreth-nesh -->
+
+
+    <!-- KONTAKTI -->
+    <section id="kontakti" class="hero d-flex align-items-center">
+
+        <div class="container d-flex align-items-center justify-content-center kontakti">
+            <div class="container mt-md-3 row text-center justify-content-center">
+
+                <div class="col-lg-6 text-center pt-lg-5 kontakti-p">
+                    <div data-aos="zoom-in">
+                        <h2 class="pt-lg-3 pb-lg-3 pt-3 "> CONTACT US</h2>
+                        <hr class="hr-custom">
+                        <p>Lorem ipsum 7000 Ferizaj, Kosovo </p>
+                        <p>We want to hear from you, write us:</p>
+                    </div>
+
+
+                    <form data-aos="fade-right">
+                        <div class="form-custom">
+                            <label for="name" class="form-label"></label>
+                            <input type="text " class="form-control " id="name" placeholder="Name">
+
+                        </div>
+                        <div class="form-custom">
+                            <label for="email" class="form-label"></label>
+                            <input type="email" class="form-control " id="email " placeholder="Email">
+
+                        </div>
+                        <div class="form-custom">
+                            <label for="phone" class="form-label"></label>
+                            <input type="number " class="form-control" id="phone" placeholder="Phone ">
+
+                        </div>
+                        <div class="mt-4 form-custom">
+                            <textarea class="form-control" placeholder="Type your message here..." id="textarea" style="height: 100px"></textarea>
+
+                        </div>
+
+                        <button type="submit " class="btn btn-kontakt my-2">Submit</button>
+                    </form>
+
+                </div>
+                <div class="col-lg-6 d-lg-block mt-lg-5 pt-lg-5 pb-lg-5 pt-lg-5  text-kontakt">
+                    <div class="row mt-lg-5 pt-lg-5" data-aos="fade-left">
+                        <ul class="list-unstyled mb-6 mt-5 pt-lg-5 pt-sm-1">
+                            <li class="mb-1">
+                                <div class="fas fa-map-marker-alt mt-2 ">
+                                    <span>
+                                    70 000 Ferizaj, Kosovo
+                                    </span>
+
+                                </div>
+                            </li>
+
+                            <li class="mb-1">
+                                <div class="fas fa-phone mt-2">
+                                    <span>
+                                        +383 45 526 027
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <div class="fas fa-envelope mt-2 ">
+                                    <span>
+                                        qerimidritonn@gmail.com
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+
+
+                    </div>
+                </div>
+                <!-- <div class="container d-none d-md-block align-items-center justify-content-center mt-sm-2 pb-4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6037251.779666994!2d16.6657974110232!3d42.3664638179148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13547e5d2cdacd71%3A0xec0e1a604157e8b5!2sUroshevac!5e0!3m2!1sen!2s!4v1626375722986!5m2!1sen!2s"
+                        width="80%" height="350" style="border:0;" allowfullscreen="" loading="lazy" class="animate__animated animate__slideInUp"></iframe>
+                </div>
+                <div class="container align-items-center justify-content-center bg-white mt-sm-2 pb-4 map-show">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2304603.680080888!2d19.602858953977105!3d42.5382309716608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13547e5d2cdacd71%3A0xec0e1a604157e8b5!2sUroshevac!5e0!3m2!1sen!2s!4v1626376789183!5m2!1sen!2s"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
+                </div> -->
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- FUNDI KONTAKTI -->
+    <!-- Footer-->
+
+
+
+    <footer id="footer" class="py-7 py-md-9 bg-footer">
+        <div class="container px-4 pt-5 ">
+            <div class="row gx-7">
+                <div class="col-lg-6 text-center justify-content-center align-items-center">
+                    <a href="index.html" class="logo d-flex align-items-center justify-content-lg-start justify-content-center">
+                        <img src="img/logo2.png" alt="">
+                        <span class="footer-h5">n'bahçe</span>
+                    </a>
+                    <p class="mb-6 ft-custom text-lg-start text-center col-lg-8 pt-4 pt-sm-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quia commodi repudiandae nemo esse illo distinctio ducimus minima ex. Earum. </p>
+                </div>
+
+                <div class="col-lg-6 pt-2">
+                    <h5 class="text-xs text-primary text-center footer-h5">
+                        Kontakti
+                    </h5>
+                    <ul class="list-unstyled mb-6 text-lg-start text-center  text-padding pt-4 pt-sm-1">
+
+
+                        <li class="mb-1 ft-custom justify-content-sm-start ">
+                            <div class="fas fa-map-marker-alt mt-2 fs-sm">
+                                <span class="ft-custom">
+                                Ferizaj, Kosova
+                                </span>
+
+                            </div>
+                        </li>
+
+                        <li class="mb-1 ft-custom justify-content-sm-start">
+                            <div class="fas fa-phone mt-2 fs-sm">
+                                <span class="ft-custom">
+                                    +383 45 526 027
+                                </span>
+                            </div>
+                        </li>
+                        <li class="mb-1 ft-custom">
+                            <div class="fas fa-envelope mt-2 fs-sm ">
+                                <span class="ft-custom">
+                                    qerimidritonn@gmail.com
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+
+
+
+
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="align-items-center text-center pb-3">
+                        <hr class="hr-line">
+                        <span class="ft-custom"> 
+                            © July 2021 | Driton Qerimi All rights reserved.
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+    <!-- Mbarimi Footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
