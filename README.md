@@ -1,3 +1,3 @@
-  
-Technologies: HTML, CSS, Bootstrap, JS  
-\*Prices of products are default. 
+Live: https://nbahce.netlify.app/
+
+\*Prices of products are default.
